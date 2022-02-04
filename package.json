@@ -1,0 +1,25 @@
+{
+  "name": "folder-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "node ./node_modules/.bin/pkg ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ip": "^1.1.5",
+    "multer": "^1.4.4",
+    "open": "^8.4.0",
+    "pkg": "^5.5.2"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "targets": [
+      "node14"
+    ]
+  }
+}
